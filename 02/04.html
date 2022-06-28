@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>클래스</title>
+    <script>
+       //클래스 
+       //인스턴스 = 클래스를 사용해서 생성된 객체
+
+       //클래스를 선언하는 방법=> 재사용할 함수 선언
+       class Student{
+       constructor(이름 ,국어, 영어, 수학, 과학){
+        this.이름 = 이름
+        this.국어 = 국어
+        this.영어 = 영어
+        this.수학 = 수학
+        this.과학 = 과학
+       }
+    }
+
+
+       //학생선언 0-> 객체선언
+       const student = new Student();
+        //학생리스트를 선언합니다 -> 객체선언된 곳에 각각값을 입력
+       const students = []
+         students.push(new Student('구름',87,98,88,90))
+         students.push(new Student('구름',87,98,88,90))
+         students.push(new Student('구름',87,98,88,90))
+         students.push(new Student('구름',87,98,88,90))
+    
+    </script>
+    
+</head>
+<body>
+    
+</body>
+</html>
