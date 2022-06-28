@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>try catch</title>
+</head>
+<body>
+    
+</body>
+<script>
+    try {
+        willExcept.byeBye();//예외사항을 발생.
+        console.log("try 구문의 마지막 줄")
+        document.write("try 구문의 마지막 줄")
+    }catch(e){//exception의 줄임말
+        console.log("catch 구문의 마지막 줄")
+        document.write("catch 구문의 마지막 줄")
+    }finally{
+        console.log("finally 구문의 마지막 줄")
+        document.write("finally 구문의 마지막 줄")
+    }
+    //1.트라이가 예외면 트라이는 넘어가고 캐치와 파이널리가 실행되고
+    //2.트라이가 예외가 아니면 트라이와 파이널리가 실행된다.
+</script>
+</html>
